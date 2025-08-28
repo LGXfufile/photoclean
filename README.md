@@ -2,6 +2,10 @@
 
 Remove unwanted people from your photos with AI-powered image processing.
 
+## 🌟 Live Demo
+
+**Production URL:** [PhotoClean App](https://photoclean.vercel.app)
+
 ## Features
 
 - 🎯 **Smart Detection**: AI automatically detects people in photos
@@ -13,8 +17,8 @@ Remove unwanted people from your photos with AI-powered image processing.
 ## Tech Stack
 
 - **Frontend**: Next.js 14, TypeScript, Tailwind CSS
-- **AI Processing**: Custom image inpainting algorithms
-- **Deployment**: Vercel
+- **AI Processing**: FAL AI (YOLOv8 + Stable Diffusion)
+- **Deployment**: Vercel with GitHub CI/CD
 
 ## Getting Started
 
@@ -31,12 +35,26 @@ Remove unwanted people from your photos with AI-powered image processing.
 4. Hit "Remove Selected People" to process
 5. Download your cleaned photo
 
+## Environment Variables
+
+```bash
+FAL_KEY=your_fal_api_key_here
+```
+
 ## Privacy & Security
 
 - Photos are processed client-side when possible
 - No images are stored on our servers
 - All uploads are temporary and automatically deleted
 
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
 ---
 
-Made with ❤️ using AI technology
+Made with ❤️ using AI technology | Deployed with Vercel
