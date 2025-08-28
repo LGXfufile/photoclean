@@ -55,6 +55,7 @@ FAL_KEY=your_fal_api_key_here
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
+
 ---
 
 Made with ❤️ using AI technology | Deployed with Vercel
